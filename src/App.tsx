@@ -6,39 +6,22 @@ import linkedinIcon from './assets/linkedin.png';
 import githubIcon from './assets/github.png';
 import leetcodeIcon from './assets/leetcode.png';
 import instaIcon from './assets/insta.png';
-
 import bluestockLogo from './assets/bluestock.jpeg';
-
 import veridiaLogo from './assets/veridia.jpeg';
-
 import unixShellImg from './assets/unix-shell.png';
-
 import emailSchedularImg from './assets/email-schedular.png';
-
 import authSystemImg from './assets/2fa.png';
-
 import cloudSimImg from './assets/cloudsim.png';
-
 import awsCert from './assets/aws.png';
-
 import promptCert from './assets/prompt-engg.png';
-
 import nlpCert from './assets/nlp.png';
-
 import aiAgentCert from './assets/ai-agent.png';
-
 import cloudCert from './assets/cloud-computing.png';
-
 import genAiCert from './assets/genai-simplilearn.png';
-
 import algoAchievement from './assets/algo.png';
-
 import unstopAchievement from './assets/unstop-ceo.png';
-
 import leetcodeAchievement from './assets/leetcode-2.png';
-
 import tataAchievement from './assets/tata.png';
-
 import graphethonAchievement from './assets/graphethon.png';
 
 const App: React.FC = () => {
@@ -162,8 +145,15 @@ const App: React.FC = () => {
                 </div>
               </div>
               <ul>
-                <li><b>Tech Stack:</b> ReactJS, Node.js, MongoDB, Express.js, RESTful APIs.</li>
-                <li><b>My Work:</b> Developed a scalable full-stack platform focusing on modular architecture.</li>
+                <li><b>Tech Stack:</b> ReactJS, Node.js, MongoDB, Express.js, RESTful APIs, and State Management</li>
+                <li><b>My Work:</b> Developed and deployed a scalable full-stack platform, focusing on modular architecture and optimized user registration workflows.</li>
+                <li><b>Deliverables:</b>
+                  <ul>
+                    <li><b>Modular Component Library:</b> Built and deployed 15+ reusable UI components to ensure design consistency and faster development cycles.</li>
+                    <li><b>Scalable REST APIs:</b> Architected backend endpoints to handle data flow between MongoDB and the frontend with high maintainability.</li>
+                    <li><b>Workflow Optimization:</b> Refined registration logic and state management to streamline the user onboarding experience.</li>
+                  </ul>
+                </li>
                 <li><b>Impact:</b> Increased registration processing speed by 25% and supported 20% more concurrent sessions.</li>
               </ul>
             </div>
@@ -181,6 +171,7 @@ const App: React.FC = () => {
               <div className="project-details">
                 <h3>NeuroShell: AI-Enhanced POSIX Interface</h3>
                 <p className="tech-stack"><strong>Tech Stack:</strong> C, Python, SQLite, ML</p>
+                <p>Revolutionized command-line interaction by integrating AI-driven natural language processing into a custom Unix shell, enabling users to execute complex commands through intuitive prompts.</p>
               </div>
             </div>
 
@@ -191,6 +182,7 @@ const App: React.FC = () => {
               <div className="project-details">
                 <h3>Distributed Email Scheduler</h3>
                 <p className="tech-stack"><strong>Tech Stack:</strong> Node.js, BullMQ, Redis, Docker</p>
+                <p>Designed a distributed email scheduling system using Node.js and BullMQ, leveraging Redis for task queuing and Docker for containerization, ensuring reliable and scalable email delivery across multiple servers.</p>
               </div>
             </div>
 
@@ -201,6 +193,7 @@ const App: React.FC = () => {
               <div className="project-details">
                 <h3>Enterprise Identity Management</h3>
                 <p className="tech-stack"><strong>Tech Stack:</strong> React, Node.js, MongoDB, JWT</p>
+                <p>Built a full-stack identity management system with React frontend and Node.js backend, implementing JWT-based authentication and role-based access control to secure enterprise applications.</p>
               </div>
             </div>
           </div>
