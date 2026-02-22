@@ -149,9 +149,8 @@ const App: React.FC = () => {
                 <li><b>My Work:</b> Developed and deployed a scalable full-stack platform, focusing on modular architecture and optimized user registration workflows.</li>
                 <li><b>Deliverables:</b>
                   <ul>
-                    <li><b>Modular Component Library:</b> Built and deployed 15+ reusable UI components to ensure design consistency and faster development cycles.</li>
-                    <li><b>Scalable REST APIs:</b> Architected backend endpoints to handle data flow between MongoDB and the frontend with high maintainability.</li>
-                    <li><b>Workflow Optimization:</b> Refined registration logic and state management to streamline the user onboarding experience.</li>
+                    <li><b>Scalable REST APIs:</b>Architected backend endpoints to handle data flow between MongoDB and the frontend with high maintainability.</li>
+                    <li><b>Workflow Optimization:</b>Refined state management to streamline the user onboarding experience.</li>
                   </ul>
                 </li>
                 <li><b>Impact:</b> Increased registration processing speed by 25% and supported 20% more concurrent sessions.</li>
@@ -183,6 +182,17 @@ const App: React.FC = () => {
                 <h3>Distributed Email Scheduler</h3>
                 <p className="tech-stack"><strong>Tech Stack:</strong> Node.js, BullMQ, Redis, Docker</p>
                 <p>Designed a distributed email scheduling system using Node.js and BullMQ, leveraging Redis for task queuing and Docker for containerization, ensuring reliable and scalable email delivery across multiple servers.</p>
+              </div>
+            </div>
+
+            <div className="project-item">
+              <a href="https://github.com/Anshika-111105/Full-stack-Auth-System" target="_blank" rel="noopener noreferrer">
+                <img src={authSystemImg} alt="IAM System" className="project-image" />
+              </a>
+              <div className="project-details">
+                <h3>Enterprise Identity Management</h3>
+                <p className="tech-stack"><strong>Tech Stack:</strong> React, Node.js, MongoDB, JWT</p>
+                <p>Built a full-stack identity management system with React frontend and Node.js backend, implementing JWT-based authentication and role-based access control to secure enterprise applications.</p>
               </div>
             </div>
 
