@@ -221,6 +221,14 @@ const App: React.FC = () => {
               <img src={promptCert} alt="Prompt Engineering" className="certificate-image" />
               <div className="certification-details"><h3>Prompt Engineering — Udemy</h3></div>
             </div>
+            <div className="certification-item">
+              <img src={aiAgentCert} alt="AI Agent" className="certificate-image" />
+              <div className="certification-details"><h3>AI Agent Engineering — Udemy</h3></div>
+            </div>
+            <div className="certification-item">
+              <img src={genAiCert} alt="Generative AI" className="certificate-image" />
+              <div className="certification-details"><h3>Generative AI — Udemy</h3></div>
+            </div>
           </div>
         </section>
 
