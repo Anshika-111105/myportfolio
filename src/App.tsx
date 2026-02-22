@@ -92,9 +92,9 @@ const App: React.FC = () => {
               <p>My work lives at the intersection of Artificial Intelligence and User Experience, where I transform raw data into functional, high-performance applications.</p>
               <p><b>My Engineering Philosophy:</b></p>
               <ul className="philosophy-list">
-                <li>➤ <b>Data-Driven Logic:</b> I architect end-to-end ML pipelines, moving beyond basic scripts to build models that solve real-world problems.</li>
-                <li>➤ <b>Human-Centric Design:</b> I believe great software should be invisible and user-first.</li>
-                <li>➤ <b>Scalable Architecture:</b> I focus on writing clean, maintainable code that bridges backend systems and seamless interactions.</li>
+                <li><b>Data-Driven Logic:</b> I architect end-to-end ML pipelines, moving beyond basic scripts to build models that solve real-world problems.</li>
+                <li><b>Human-Centric Design:</b> I believe great software should be invisible and user-first.</li>
+                <li><b>Scalable Architecture:</b> I focus on writing clean, maintainable code that bridges backend systems and seamless interactions.</li>
               </ul>
             </div>
           </div>
@@ -256,7 +256,7 @@ const App: React.FC = () => {
               <img src={leetcodeAchievement} alt="LeetCode" className="achievement-image" />
               <div className="achievement-details">
                 <h3>LeetCode Mastery</h3>
-                <p>Solved 500+ problems, peak rating 1506.</p>
+                <p>Solved 500+ problems, peak rating 1506</p>
               </div>
             </div>
           </div>
