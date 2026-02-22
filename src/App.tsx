@@ -197,13 +197,13 @@ const App: React.FC = () => {
             </div>
 
             <div className="project-item">
-              <a href="https://github.com/Anshika-111105/Full-stack-Auth-System" target="_blank" rel="noopener noreferrer">
-                <img src={authSystemImg} alt="IAM System" className="project-image" />
+              <a href="https://github.com/Anshika-111105/Simulation-of-two-Inter-VM-for-Data-Exchange-and-Application-Virtualization" target="_blank" rel="noopener noreferrer">
+                <img src={cloudSimImg} alt="Cloud Simulation" className="project-image" />
               </a>
               <div className="project-details">
-                <h3>Enterprise Identity Management</h3>
-                <p className="tech-stack"><strong>Tech Stack:</strong> React, Node.js, MongoDB, JWT</p>
-                <p>Built a full-stack identity management system with React frontend and Node.js backend, implementing JWT-based authentication and role-based access control to secure enterprise applications.</p>
+                <h3>Cloud Simulation System</h3>
+                <p className="tech-stack"><strong>Tech Stack:</strong>Linux environment, C/Python, Socket Programming, and Virtualization tools (likely VirtualBox or VMware)</p>
+                <p>Developed a simulation system for inter-VM data exchange and application virtualization, enabling seamless communication and resource sharing across multiple virtual machines.</p>
               </div>
             </div>
           </div>
@@ -252,6 +252,15 @@ const App: React.FC = () => {
                 <p>Global AI initiative by the Crown Prince of Dubai.</p>
               </div>
             </div>
+
+            <div className="achievement-item">
+              <img src={algoAchievement} alt="Algorithmic Excellence" className="achievement-image" />
+              <div className="achievement-details">
+                <h3>Algorithmic Excellence</h3>
+                <p>Recognized for exceptional problem-solving and algorithmic design skills.</p>
+              </div>
+            </div>
+            
             <div className="achievement-item">
               <img src={leetcodeAchievement} alt="LeetCode" className="achievement-image" />
               <div className="achievement-details">
